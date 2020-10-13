@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100;300;400;500;600;800&display=swap");
+
+body {
+  background-color: #1f1c44;
+  font-family: "Commissioner", sans-serif;
+  box-sizing: border-box;
+}
+.login-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 517px;
+  margin: 217px auto;
+  background: #ffffff;
+  border-radius: 10px;
+  .container {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 51px;
+  }
+  .title {
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 60px;
+  }
+  .google-login {
+    width: 337px;
+    color: #ffffff;
+    background: #5b86e6;
+    border-radius: 5px;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    padding: 7px 0 7px 7px;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 60px;
+    .google-icon-img {
+      margin-right: 42px;
+      img {
+        height: 55px;
+      }
+    }
+  }
+  .with-email {
+    margin-top: 50px;
+    color: #949495;   
+    position: relative;
+    hr{
+      border-top: 1px solid #949495;
+    }   
+    span {
+      top: -12px;
+      background: #fff;
+      position: absolute;
+      left: 18%;
+      padding-left: 14.5px;
+      padding-right: 14.5px;
+      text-transform: uppercase;
+    }
+
+  }
+  .sing-up-form {
+    margin-top: 45px;
+    .form-group {
+      margin-bottom: 25px;
+      label {
+        display: block;
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 5px;
+      }
+      input {
+        width: 337px;
+        height: 69px;
+        border: 1px solid #d9dced;
+        box-sizing: border-box;
+        border-radius: 5px;
+        outline: 0;
+
+        padding-left: 25px;
+        &::placeholder {
+          color: #949495;
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+    }
+    .get-started {
+      background: #e65b7c;
+      border-radius: 5px;
+      width: 337px;
+      outline: 0;
+      border: 0;
+      font-size: 18px;
+      line-height: 22px;
+      color: #fff;
+      padding: 25px 118px;
+      cursor: pointer;
+    }
+    .login-text {
+      display: block;
+      text-align: center;
+      margin-top: 55px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      a {
+        color: #5b86e6;
+        text-decoration: none;
+      }
+    }
+  }
+}
